@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_height="fill_parent" 
+	android:layout_width="fill_parent" 
+	android:orientation="vertical" 
+	xmlns:android="http://schemas.android.com/apk/res/android"> 
+	<Button android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" android:text="Scan" 
+	    android:id="@+id/buttonScan"/> 
+	    <Button android:layout_height="wrap_content" 
+	        android:layout_width="wrap_content" 
+	        android:text="Exit" android:id="@+id/buttonStop"> </Button>
+	     <ScrollView android:layout_height="wrap_content" 
+	         android:layout_width="wrap_content" 
+	         android:id="@+id/ScrollView01"> 
+	         <TextView android:layout_height="wrap_content" 
+	             android:layout_width="fill_parent" 
+	             android:text="WiFiDemo" 
+	             android:id="@+id/textStatus"/> 
+	             </ScrollView> 
+</LinearLayout>
